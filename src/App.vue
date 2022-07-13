@@ -55,7 +55,7 @@ export default {
   data: () => ({
     drawer: null,
     items: [
-      { title: 'Dashboard', icon: 'mdi-view-dashboard', to: '/' },
+      { title: 'Home', icon: 'mdi-home', to: '/' },
       { title: 'Tickets Aéreos', icon: 'mdi-airplane', to: '/ticket' },
     ],
   }),
