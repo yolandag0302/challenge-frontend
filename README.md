@@ -1,12 +1,16 @@
-# vue-application
+# challenge-fronted
 
 ## Project setup
 ```
-npm install
+docker build -t vueapp -f Dockerfile .
+
+docker run -itd -v ${PWD}:/app --name vueapp vueapp
 ```
 
 ### Compiles and hot-reloads for development
 ```
+cd challenge-fronted
+
 npm run serve
 ```
 
