@@ -56,7 +56,6 @@ export default {
     drawer: null,
     items: [
       { title: 'Home', icon: 'mdi-home', to: '/' },
-      { title: 'Tickets Aéreos', icon: 'mdi-airplane', to: '/ticket' },
     ],
   }),
 }
