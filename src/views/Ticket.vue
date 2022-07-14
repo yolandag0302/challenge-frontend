@@ -11,6 +11,7 @@
                   cols="12"
                   sm="3"
                   v-for="ticket in tickets"
+                  :key="ticket.aerolinea"
               >
                 <v-card>
                   <v-img
